@@ -627,7 +627,7 @@ return [
         'text_tab_title_themes' => 'Themes',
         'text_tab_title_languages' => 'Languages',
         'text_ignore' => 'Ignore',
-        'text_search' => 'Search to install %s from the TastyIgniter marketplace',
+        'text_search' => 'Search to install %s from the '. env('APP_NAME') .' marketplace',
         'text_popular_title' => 'Recommended %s',
         'text_last_checked' => '<b>Last checked:</b> %s',
 
@@ -666,7 +666,7 @@ return [
         'button_recommended_theme' => 'Install a recommended theme...',
         'button_install' => 'Install Selected...',
 
-        'help_carte_key' => 'A Carte key is required to add and update item from the TastyIgniter Marketplace. <br>Get one by creating a site from your <a href="%s" target="_blank">TastyIgniter Account</a>, if you haven\'t already. For more information, see the <a href="%s" target="_blank">Carté Key Guide</a>',
+        'help_carte_key' => 'A Carte key is required to add and update item from the '. env('APP_NAME'),
         'alert_item_to_ignore' => 'Select item(s) to ignore.',
         'alert_no_carte_key' => 'No carte key specified.',
         'alert_no_items' => 'No item(s) specified.',

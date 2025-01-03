@@ -8,12 +8,12 @@ $config['list']['filter'] = [
 
 $config['list']['toolbar'] = [
     'buttons' => [
-        'browse' => [
+/*        'browse' => [
             'label' => 'lang:system::lang.extensions.button_browse',
             'class' => 'btn btn-primary',
             'href' => 'https://tastyigniter.com/marketplace/extensions',
             'target' => '_blank',
-        ],
+        ],*/
         'check' => [
             'label' => 'lang:system::lang.updates.button_check',
             'class' => 'btn btn-success',
